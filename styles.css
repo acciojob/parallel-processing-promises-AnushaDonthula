@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#output {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#output img {
+    max-width: 200px;
+    max-height: 150px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+}
